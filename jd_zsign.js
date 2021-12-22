@@ -5,7 +5,7 @@
 cron 11 0,9 * * * jd_zsign.js
 TG:https://t.me/sheeplost
 */
-const $ = new Env('芥么签到');
+const $ = new Env('芥么签到1111');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
