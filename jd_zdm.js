@@ -65,6 +65,7 @@ function zdm(prizeType, business, id, poolBaseId, prizeGroupId, prizeBaseId) {
           console.log(`${err}`)
           console.log(`${$.name} API请求失败，请检查网路重试`)
         } else {
+          console.log(`111111111${dwName}`)
           await notify.sendNotify(`111`, `111`);
         }
       } catch (e) {
